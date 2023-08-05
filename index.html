@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Контактная информация</legend>
+            <div class="col-25"><label for="name">Имя <em>*</em></label></div>
+            <div class="col-75"><input type="text" id="name"></div>
+            <div  class="col-25"><label for="email">E-mail</label></div>
+            <div class="col-75"><input type="email" id="email"></div>
+            <div  class="col-25"><label for="telephone">Телефон</label></div>
+            <div class="col-75"><input type="tel" id="telephone"></div>
+            <div  class="col-25"><label for="country">Страна</label></div>
+            <div class="col-75">
+                <select type="country" id="country">
+                <option value="australia">Украина</option>
+                <option value="canada">Канада</option>
+                <option value="usa">Польша</option>
+                </select>
+            </div>
+            <div class="col-25"><label for="subject"> Комментарий</label></div>
+            <div class="col-75"><textarea id="subject" name="subject" placeholder="Введите текст..."></textarea></div>
+            <legend class="h3">Отметьте пункты, которые относятся к вам:</legend>
+            <label class="container">Я люблю читать
+                <input type="checkbox" checked="checked" class="check-highload">
+                <span class="highload2"></span>
+              </label>
+              <label class="container">Я люблю водить машину
+                <input type="checkbox" class="check-highload">
+                <span class="highload2"></span>
+              </label>
+              <label class="container">Я люблю собак
+                <input type="checkbox" class="check-highload">
+                <span class="highload2"></span>
+           
+        </fieldset>
+        <button type="submit">Отправить</button>
+    </form>
+    
+</body>
+</html>
